@@ -1,0 +1,55 @@
+@media only screen and (min-width:38rem) {
+    header, main, nav, footer {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    header {
+        grid-template-columns: 35px auto;
+    }
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        display: grid;
+    }
+    .navigation ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        text-align: center;
+    }
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0.5rem;
+    }
+    h1 {
+        grid-column: 1 / 3;
+    }
+    section {
+        max-height: fit-content;
+    }
+    .courses {
+        grid-column: 1 / 3;
+    }
+    .about {
+        align-content: center;
+    }
+    .about p {
+        font-size: 1.2rem;
+    }
+    #course-cards {
+        width: 100%;
+        display: flex;
+        min-width: 500px;
+        align-content: space-around;
+    }
+    .card {
+        margin: 0.3rem auto;
+    }
+    .courses p {
+        text-align: center;
+    }
+    .buttons button {
+        min-width: 100px;
+    }
+}

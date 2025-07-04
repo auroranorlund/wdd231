@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD231 Home Page</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/072d754b9a.js" crossorigin="anonymous"></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/courses.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/sun.svg" alt="Site Sun Logo" width="1" height="1">
+        <span>Aurora Norlund</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-menu" class="navigation">
+        <ul>
+            <li class="current"><a href='index.html'>Home</a></li>
+            <li><a href='#'>Chamber</a></li>
+            <li><a href='#'>Final</a></li>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <section class="about">
+            <h2>About Me</h2>
+            <p>My name is Aurora. I was born in California and lived in Nebraska for a time, but I currently live in Arizona. I currently work as a secretary at a flooring company where they also are having me help with some of their marketing efforts. I love reading, and my favorite book is Pride and Prejudice. I also love to go country swing dancing, and started learning this February.</p>
+        </section>
+        <section class="photo">
+            <h2>Student Photo</h2>
+            <picture>
+                <source srcset="images/student-photo-large.webp" media="(min-width: 585px)">
+                <source srcset="images/student-photo-medium.webp" media="(min-width: 400px)">
+                <img src="images/student-photo-small.webp" alt="Student Photo" width="293" height="439">
+            </picture>
+        </section>
+        <section class="courses">
+            <h2>Web Certificate Courses</h2>
+            <div class="buttons">
+                <button id="all">All</button>
+                <button id="cse">CSE</button>
+                <button id="wdd">WDD</button>
+            </div>
+            <p>The total number of credits listed below is <span id="courses-total"></span></p>
+            <div id="course-cards">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="ft-social-list">
+            <li><a href="https://github.com/auroranorlund"><i class="fa-brands fa-square-github"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/aurora-n/"><i class="fab fa-linkedin"></i></a></li>
+        </ul>
+        <p><span id="currentyear"></span> Aurora Norlund, USA</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
