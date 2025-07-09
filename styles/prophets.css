@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Newsreader', serif;
+}
+main {
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(141, 169, 221);
+    box-shadow: 0 0 30px #3030308f;
+}
+h1 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 3rem;
+    color: rgb(83, 110, 159);
+}
+h2 {
+    padding: 10px;
+    font-size: 2rem;
+}
+#cards {
+    display:grid; 
+    grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    padding: 1rem;
+    margin: 1rem;
+}
+#cards img {
+    width: 60%;
+    height: auto;
+    padding: 0.5rem;
+    box-shadow: 0 0 30px #3030308f;
+}
+section {
+    background-color: rgb(83, 110, 159);
+    color: white;
+    border: 1px solid rgba(50, 66, 95, 0.64);
+}
+section p {
+    padding: 0.25rem;
+}
+footer {
+    background-color: rgb(83, 110, 159);
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 1.2rem;
+}
