@@ -5,7 +5,7 @@
             "address": "1438 W Broadway St., Smallville, Kansas, 66112",
             "phone": "620-325-1680",
             "url": "https://www.asgardia.com",
-            "logo": "images/asgardia.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/asgardia.png",
             "membership": 3
 
         },
@@ -14,7 +14,7 @@
             "address": "2391 E Hickory St., Smallville, Kansas, 66112",
             "phone": "620-413-9851",
             "url": "https://www.atica.com",
-            "logo": "images/atica.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/atica.png",
             "membership": 1
 
         },
@@ -23,7 +23,7 @@
             "address": "311 N Sweetwater Dr., Smallville, Kansas, 66112",
             "phone": "620-147-5476",
             "url": "https://www.foxhub.com",
-            "logo": "images/fox-hub.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/fox-hub.png",
             "membership": 2
 
         },
@@ -32,7 +32,7 @@
             "address": "1439 W Broadway St., Smallville, Kansas, 66112",
             "phone": "620-749-8951",
             "url": "https://www.goldline.com",
-            "logo": "images/goldline.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/goldline.png",
             "membership": 3
 
         },
@@ -41,7 +41,7 @@
             "address": "2395 E Hickory St., Smallville, Kansas, 66112",
             "phone": "620-415-6325",
             "url": "https://www.ideaa.com",
-            "logo": "images/ideaa.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/ideaa.png",
             "membership": 1
 
         },
@@ -50,7 +50,7 @@
             "address": "310 N Sweetwater Dr., Smallville, Kansas, 66112",
             "phone": "620-152-9815",
             "url": "https://www.liva.com",
-            "logo": "images/liva.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/liva.png",
             "membership": 1
 
         },
@@ -59,7 +59,7 @@
             "address": "754 S Brown St., Smallville, Kansas, 66112",
             "phone": "620-415-7521",
             "url": "https://www.nirastate.com",
-            "logo": "images/nirastate.png",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/nirastate.png",
             "membership": 2
 
         }
