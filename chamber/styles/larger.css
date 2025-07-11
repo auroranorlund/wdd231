@@ -1,0 +1,25 @@
+@media only screen and (min-width:38rem) {
+    header {
+        grid-template-columns: 35px auto 1fr;
+    }
+    .hamburger {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        justify-content: flex-end;
+    }
+    .navigation ul {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .navigation a {
+        padding: 0 0.5rem 0 0.5rem;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}

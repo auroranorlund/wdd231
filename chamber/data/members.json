@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "Asgardia",
+            "address": "1438 W Broadway St., Smallville, Kansas, 66112",
+            "phone": "620-325-1680",
+            "url": "https://www.asgardia.com",
+            "logo": "images/asgardia.png",
+            "membership": 3
+
+        },
+        {
+            "name": "Atica",
+            "address": "2391 E Hickory St., Smallville, Kansas, 66112",
+            "phone": "620-413-9851",
+            "url": "https://www.atica.com",
+            "logo": "images/atica.png",
+            "membership": 1
+
+        },
+        {
+            "name": "FoxHub",
+            "address": "311 N Sweetwater Dr., Smallville, Kansas, 66112",
+            "phone": "620-147-5476",
+            "url": "https://www.foxhub.com",
+            "logo": "images/fox-hub.png",
+            "membership": 2
+
+        },
+        {
+            "name": "Goldline",
+            "address": "1439 W Broadway St., Smallville, Kansas, 66112",
+            "phone": "620-749-8951",
+            "url": "https://www.goldline.com",
+            "logo": "images/goldline.png",
+            "membership": 3
+
+        },
+        {
+            "name": "Ideaa",
+            "address": "2395 E Hickory St., Smallville, Kansas, 66112",
+            "phone": "620-415-6325",
+            "url": "https://www.ideaa.com",
+            "logo": "images/ideaa.png",
+            "membership": 1
+
+        },
+        {
+            "name": "Liva",
+            "address": "310 N Sweetwater Dr., Smallville, Kansas, 66112",
+            "phone": "620-152-9815",
+            "url": "https://www.liva.com",
+            "logo": "images/liva.png",
+            "membership": 1
+
+        },
+        {
+            "name": "Nirastate",
+            "address": "754 S Brown St., Smallville, Kansas, 66112",
+            "phone": "620-415-7521",
+            "url": "https://www.nirastate.com",
+            "logo": "images/nirastate.png",
+            "membership": 2
+
+        }
+    ]
+}
