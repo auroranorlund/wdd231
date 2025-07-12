@@ -1,1 +1,56 @@
 /* ------------------------ MAIN ------------------------*/
+body {
+    width: 100vw;
+}
+main {
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    text-align: center;
+}
+.options {
+    display: flex;
+    justify-content: center;
+}
+button {
+    margin: 0.5rem;
+    min-width: 70px;
+    min-height: 44px;
+    background-color: var(--secondary);
+    border: 1px solid #336959d2;
+    border-radius: 0.25rem;
+}
+#cards.grid {
+    display:grid; 
+    grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.grid section img {
+    width: auto;
+    height: 25px;
+    display: block;
+    margin: 0 auto 0.75rem auto;
+}
+
+.grid section {
+    background-color: paleturquoise;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    min-width: 200px;
+}
+
+.grid h2 {
+    display: none;
+}
+
+.grid p {
+    margin: 0.5rem;
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 1.25;
+}

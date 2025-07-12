@@ -20,18 +20,6 @@ const createDirectoryCards = (members) => {
     logo.setAttribute("src", member.logo);
     logo.setAttribute("alt", `${member.name} business logo`);
     logo.setAttribute("loading", "lazy");
-
-    let logoImage = new Image();
-    let width = 0;
-    let height = 0;
-    logoImage.src = member.logo;
-    logoImage.onload = function() {
-      width = logoImage.width;
-      height = logoImage.height;
-    }
-
-    logo.setAttribute("width", width);
-    logo.setAttribute("height", height);
     address.innerHTML = `${member.address}`;
     phone.innerHTML = `${member.phone}`;
     url.innerHTML = `<a href="${member.url}">${member.url}</a>`;
@@ -46,3 +34,16 @@ const createDirectoryCards = (members) => {
 };
 
 getBusinessData();
+
+const gridButton = document.querySelector("#grid");
+const listButton = document.querySelector("#list");
+
+gridButton.addEventListener("click", () => {
+    cards.classList.add("grid");
+    cards.classList.remove("list");
+});
+
+listButton.addEventListener("click", () => {
+    cards.classList.add("list");
+    cards.classList.remove("grid");
+});
