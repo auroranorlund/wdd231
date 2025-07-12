@@ -6,9 +6,9 @@
     <meta name="description" content="This serves as the home page for Aurora Norlund for the BYU-I class WDD 231 - Web Frontend Development">
     <meta name="author" content="Aurora Norlund">
     <meta property="og:description" content="This serves as the directory for Aurora Norlund's Chamber of Commerce project for the BYU-I class WDD 231 - Web Frontend Development">
-    <meta property="og:image" content="images/chamber-icon.png">
+    <meta property="og:image" content="https://auroranorlund.github.io/wdd231/chamber/images/chamber-icon.png">
     <meta property="og:title" content="WDD231 Chamber of Commerce Directory">
-    <meta property="og:url" content="https://auroranorlund.github.io/wdd231/">
+    <meta property="og:url" content="https://auroranorlund.github.io/wdd231/chamber/directory">
     <title>WDD231 Chamber of Commerce Directory</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
@@ -22,7 +22,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
 
-    <script src="https://kit.fontawesome.com/072d754b9a.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/072d754b9a.js" crossorigin="anonymous" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/directory.js" defer></script>
@@ -31,7 +31,7 @@
     <header>
         <img src="images/chamber-icon.svg" alt="Chamber of Commerce Logo" width="1" height="1">
         <span>Smallville Chamber of Commerce</span>
-        <button id="ham-btn" class="hamburger"></button>
+        <button id="ham-btn" class="hamburger" aria-label="menu-button"></button>
         <nav id="nav-menu" class="navigation">
             <ul>
                 <li><a href='#'>Home</a></li>
@@ -44,8 +44,8 @@
     <main>
         <h1>Directory</h1>
         <div class="options">
-            <button id="grid">Grid</button>
-            <button id="list">List</button>
+            <button id="grid" aria-label="grid">Grid</button>
+            <button id="list" aria-label="list">List</button>
         </div>
         <article id="cards" class="grid">
         </article>
@@ -54,14 +54,14 @@
         <div class="ft-main-item">
             <p>Smallville Chamber of Commerce</p>
             <p>145 S Main St., <br> Smallville, Kansas, 66112</p>
-            <p><a href="mailto:info@smallvillecommerce.com">info@smallvillecommerce.com</a></p>
+            <p>info@smallvillecommerce.com</p>
             <p><a href="tel:+16204402365">620-440-2365</a></p>
         </div>
         <div class="ft-social-item">
             <ul class="ft-social-list">
-                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></li>
-                <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="https://www.twitter.com" aria-label="Twitter"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.youtube.com" aria-label="YouTube"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="https://www.linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></li>
             </ul>
         </div>
         <div class="ft-main-item">
