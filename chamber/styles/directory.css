@@ -6,6 +6,7 @@ main {
     max-width: 700px;
     width: 100%;
     margin: 0 auto;
+    padding: 1rem;
 }
 h1 {
     text-align: center;
@@ -22,6 +23,9 @@ button {
     border: 1px solid #336959d2;
     border-radius: 0.25rem;
 }
+button:hover {
+    background-color: #5ca891;
+}
 #cards.grid {
     display:grid; 
     grid-gap: 0.5rem;
@@ -36,7 +40,7 @@ button {
 }
 
 .grid section {
-    background-color: paleturquoise;
+    box-shadow: 0 0 10px #454f4541;
     padding: 1rem;
     margin: 0.5rem;
     text-align: center;
@@ -53,4 +57,28 @@ button {
     max-width: 150px;
     margin: 0 auto;
     line-height: 1.25;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.list section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    padding: 0.5rem;
+    align-items: center;
+}
+.list section h2, p {
+    padding: 0.25rem;
+}
+.list section:nth-child(odd) {
+    background-color: #7fe7c85e;
+}
+.list img {
+    display: none;
+}
+
+.list h2 {
+    font-size: 1rem;
 }
