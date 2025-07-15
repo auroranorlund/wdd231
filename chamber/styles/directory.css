@@ -15,7 +15,7 @@ h1 {
     display: flex;
     justify-content: center;
 }
-button {
+.options button {
     margin: 0.5rem;
     min-width: 70px;
     min-height: 44px;
@@ -23,7 +23,7 @@ button {
     border: 1px solid #336959d2;
     border-radius: 0.25rem;
 }
-button:hover {
+.options button:hover {
     background-color: #5ca891;
 }
 #cards.grid {
@@ -31,14 +31,12 @@ button:hover {
     grid-gap: 0.5rem;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
-
 .grid section img {
     width: auto;
     height: 25px;
     display: block;
     margin: 0 auto 0.75rem auto;
 }
-
 .grid section {
     box-shadow: 0 0 10px #454f4541;
     padding: 1rem;
@@ -47,30 +45,28 @@ button:hover {
     font-size: 0.75rem;
     min-width: 200px;
 }
-
 .grid h2 {
     display: none;
 }
-
 .grid p {
     margin: 0.5rem;
     max-width: 150px;
     margin: 0 auto;
     line-height: 1.25;
 }
-
 .list {
     display: flex;
     flex-direction: column;
 }
 .list section {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0.5rem;
     align-items: center;
 }
 .list section h2, p {
     padding: 0.25rem;
+    font-size: 0.6rem;
 }
 .list section:nth-child(odd) {
     background-color: #7fe7c85e;
