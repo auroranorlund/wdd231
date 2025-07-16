@@ -62,6 +62,15 @@
             "logo": "https://auroranorlund.github.io/wdd231/chamber/images/nirastate.png",
             "membership": 2
 
+        },
+                {
+            "name": "Stari",
+            "address": "755 S Brown St., Smallville, Kansas, 66112",
+            "phone": "620-147-5265",
+            "url": "https://www.stari.com",
+            "logo": "https://auroranorlund.github.io/wdd231/chamber/images/stari.png",
+            "membership": 3
+
         }
     ]
 }

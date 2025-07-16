@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/home.css">
 
     <link rel="icon" href="images/chamber-icon.ico">
 
@@ -24,6 +25,8 @@
     <script src="https://kit.fontawesome.com/072d754b9a.js" crossorigin="anonymous" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/home-weather.js" defer></script>
+    <script src="scripts/home-cards.js" defer></script>
 </head>
 <body>
     <header>
@@ -32,15 +35,40 @@
         <button id="ham-btn" class="hamburger" aria-label="menu-button"></button>
         <nav id="nav-menu" class="navigation">
             <ul>
-                <li><a href='index.html'>Home</a></li>
-                <li class="current"><a href='directory.html'>Directory</a></li>
+                <li class="current"><a href='index.html'>Home</a></li>
+                <li><a href='directory.html'>Directory</a></li>
                 <li><a href='#'>Join</a></li>
                 <li><a href='#'>Discover</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <div class="hero">
+            <picture id="hero-image">
+                <source srcset="images/hero-large.webp" media="(min-width: 750px)">
+                <source srcset="images/hero-medium.webp" media="(min-width: 450px)">
+                <img src="images/hero-small.webp" alt="Smallville Chamber of Commerce" width="250" height="167">
+            </picture>
+        </div>
         <h1>Home</h1>
+        <div class="sections">
+            <section class="events">
+                <h2>Events</h2>
+            </section>
+            <section class="current-weather">
+                <h2>Current Weather</h2>
+                <figure>
+                    <img id="weather-icon" src="" alt="">
+                    <figcaption>
+                    </figcaption>
+                </figure>
+            </section>
+            <section class="forecast" id="forecast">
+                <h2>Weather Forecast</h2>
+            </section>
+        </div>
+        <div class="businesses">
+        </div>
     </main>
     <footer>
         <div class="ft-main-item">
