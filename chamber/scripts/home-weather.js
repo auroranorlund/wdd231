@@ -38,6 +38,7 @@ apiFetch();
 
 function displayResults(data1, data2) {
     // Icon
+    
     const iconsrc = `https://openweathermap.org/img/w/${data1.weather[0].icon}.png`;
     weatherIcon.setAttribute('src', iconsrc);
     // Current Temp
