@@ -22,4 +22,12 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    /* ------------------------ HOME PAGE SECTIONS ------------------------*/
+    .sections {
+        display: flex;
+        flex-direction: row;
+    }
+    .events {
+        max-width: 500px;
+    }
 }

@@ -43,21 +43,15 @@ function displayResults(data1, data2) {
     // Current Temp
     const currentTemp = document.createElement("p");
     currentTemp.innerHTML = `${Math.round(data1.main.temp)}&deg;F`;
+    currentTemp.setAttribute("class", "temp");
     details.appendChild(currentTemp);
     // Description
     const descText = document.createElement("p");
     let desc = data1.weather[0].description
     descText.innerHTML = `${desc}`;
+    descText.setAttribute("id", "desc")
     details.appendChild(descText);
     weatherIcon.setAttribute('alt', desc);
-    // High
-    const high = document.createElement("p");
-    high.innerHTML = `High:`;
-    details.appendChild(high);
-    // Low
-    const low = document.createElement("p");
-    low.innerHTML = `Low:`;
-    details.appendChild(low);
     // Humidity
     const humidity = document.createElement("p");
     humidity.innerHTML = `Humidity: ${data1.main.humidity}%`;
@@ -73,18 +67,19 @@ function displayResults(data1, data2) {
     sunset.innerHTML = `Sunset: ${sunsetTime}`;
     details.appendChild(sunset);
     // Today's Forecast
+    let forecastArray = getForecast(data2);
     const today = document.createElement("p");
-    today.innerHTML = `Today: ${Math.round(data2.list[3].main.temp)}&deg;F`
+    today.innerHTML = `Today: <span class="temp">${Math.round(forecastArray[0].main.temp)}&deg;F</span>`
     forecast.appendChild(today);
     // Tomorrow's Forecast
     const tomorrow = document.createElement("p");
-    let tomorrowDay = getWeekday(data2.list[8].dt);
-    tomorrow.innerHTML = `${tomorrowDay}: ${Math.round(data2.list[8].main.temp)}&deg;F`
+    let tomorrowDay = getWeekday(forecastArray[1].dt);
+    tomorrow.innerHTML = `${tomorrowDay}: <span class="temp">${Math.round(forecastArray[1].main.temp)}&deg;F</span>`
     forecast.appendChild(tomorrow);
     // Overmorrow's Forecast
     const overmorrow = document.createElement("p");
-    let overmorrowDay = getWeekday(data2.list[12].dt);
-    overmorrow.innerHTML = `${tomorrowDay}: ${Math.round(data2.list[12].main.temp)}&deg;F`
+    let overmorrowDay = getWeekday(forecastArray[2].dt);
+    overmorrow.innerHTML = `${overmorrowDay}: <span class="temp">${Math.round(forecastArray[2].main.temp)}&deg;F</span>`
     forecast.appendChild(overmorrow);
 }
 
@@ -125,4 +120,16 @@ function getWeekday(dateCode) {
     let weekday = date.getDay();
     weekday = days[weekday];
     return weekday;
+}
+
+function getForecast(data) {
+    function getHour(dt) {
+        let date = new Date(dt * 1000);
+        let hour = date.getUTCHours();
+        return hour;
+    }
+    let firstHour = getHour(data.list[0].dt);
+    let sameTimes = data.list.filter(i => getHour(i.dt) == firstHour);
+    console.log(sameTimes);
+    return sameTimes;
 }

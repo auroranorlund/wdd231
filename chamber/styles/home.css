@@ -1,13 +1,110 @@
+/* ------------------------ MAIN ------------------------*/
 main {
     max-width: 1000px;
     width: 100%;
     margin: 0 auto;
     padding: 1rem;
+    color: var(--text);
+}
+.hero {
+    position: relative;
 }
 .hero img {
     width: 100%;
     height: auto;
 }
+.hero a {
+    background-color: var(--primary);
+    color: var(--text);
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+.hero a:hover {
+    background-color: var(--secondary);
+}
 .sections section {
-    background-color: aquamarine;
+    border: 1px solid #454f4541;
+    margin: 0.5rem;
+}
+/* ------------------------ EVENTS AND WEATHER ------------------------*/
+.sections h2 {
+    background-color: var(--secondary);
+    margin: 0;
+    text-align: center;
+    padding: 0.5rem;
+}
+.sections h3 {
+    padding: 0.5rem 0.5rem 0.25rem 0.5rem;
+    margin: 0;
+}
+.date {
+    margin: 0;
+    padding: 0 0.5rem;
+    font-style: italic;
+}
+.event-details {
+    padding: 0.5rem;
+}
+.current-weather figure {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 0.5rem;
+}
+.current-weather img {
+    width: 75%;
+    height: auto;
+}
+.current-weather p {
+    margin: 0.5rem 0;
+}
+.temp {
+    font-weight: bold;
+}
+#desc {
+    text-transform: capitalize;
+}
+.forecast p {
+    padding: 0.5rem;
+    margin: 0;
+}
+/* ------------------------ BUSINESS CARDS ------------------------*/
+#businesses {
+    display:grid; 
+    grid-gap: 0.5rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+#businesses section img {
+    width: auto;
+    height: 25px;
+    display: block;
+    margin: 0 auto 0.75rem auto;
+}
+#businesses section {
+    box-shadow: 0 0 10px #454f4541;
+    padding: 1rem;
+    margin: 0.5rem;
+    text-align: center;
+    font-size: 0.75rem;
+    min-width: 200px;
+}
+#businesses h2 {
+    margin: 0;
+    font-size: 1.3rem;
+}
+.details {
+    max-width: 150px;
+    margin: 0 auto;
+    line-height: 1.25;
+}
+.membership {
+    border-bottom: 1px solid #454f4541;
+    max-width: 150px;
+    margin: 0.125rem auto 0.75rem auto;
+    line-height: 1.25;
+    text-align: center;
+    font-size: 0.75rem;
 }
