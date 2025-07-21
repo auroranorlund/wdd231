@@ -7,14 +7,14 @@
     <meta name="author" content="Aurora Norlund">
     <meta property="og:description" content="This serves as the directory for Aurora Norlund's Chamber of Commerce project for the BYU-I class WDD 231 - Web Frontend Development">
     <meta property="og:image" content="https://auroranorlund.github.io/wdd231/chamber/images/chamber-icon.png">
-    <meta property="og:title" content="Smallville Chamber of Commerce Directory">
+    <meta property="og:title" content="Smallville Chamber of Commerce Home Page">
     <meta property="og:url" content="https://auroranorlund.github.io/wdd231/chamber/directory">
-    <title>Smallville Chamber of Commerce Directory</title>
+    <title>Smallville Chamber of Commerce</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/join.css">
 
     <link rel="icon" href="images/chamber-icon.ico">
 
@@ -25,7 +25,7 @@
     <script src="https://kit.fontawesome.com/072d754b9a.js" crossorigin="anonymous" defer></script>
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
 </head>
 <body>
     <header>
@@ -34,21 +34,16 @@
         <button id="ham-btn" class="hamburger" aria-label="menu-button"></button>
         <nav id="nav-menu" class="navigation">
             <ul>
-                <li><a href='index.html'>Home</a></li>
-                <li class="current"><a href='directory.html'>Directory</a></li>
+                <li class="current"><a href='index.html'>Home</a></li>
+                <li><a href='directory.html'>Directory</a></li>
                 <li><a href='join.html'>Join</a></li>
                 <li><a href='#'>Discover</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <h1>Directory</h1>
-        <div class="options">
-            <button id="grid" aria-label="grid">Grid</button>
-            <button id="list" aria-label="list">List</button>
-        </div>
-        <article id="cards" class="grid">
-        </article>
+    <main class="thanks-main">
+        <h1 id="thanks">Thank you!</h1>
+        <div id="results"></div>
     </main>
     <footer>
         <div class="ft-main-item">

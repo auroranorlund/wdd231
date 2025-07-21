@@ -91,10 +91,33 @@ function createCourseCard(filteredCourses) {
         }
         creditTotal = creditTotal + course.credits;
         cardDiv.appendChild(card);
+        card.addEventListener("click", () => showDetails(course));
     });
     creditNumber.innerHTML = `${creditTotal}`;
 }
 createCourseCard(courses);
+
+const details = document.querySelector("#course-details");
+function showDetails(course) {
+    details.innerHTML = ``;
+    details.innerHTML = `
+    <div class="details-header">
+    <h2>${course.subject}${course.number}</h2>
+    <button id="close">X</button>
+    </div>
+    <h3>${course.title}</h3>
+    <p>${course.credits} credits</p>
+    <p>Certificate: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p>Technology: ${course.technology.join(", ")}</p>
+    `;
+    details.showModal();
+
+    let close = document.querySelector("#close");
+    close.addEventListener("click", () => {
+        details.close();
+    });
+}
 
 const allButton = document.querySelector("#all");
 const cseButton = document.querySelector("#cse");
