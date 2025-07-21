@@ -49,30 +49,30 @@
             <p class="optional">(Required fields are marked with an *)</p>
             <label for="fname">
                 <span class="bold">First Name</span>*
-                <input type="text" id="fname" name="fname" autocomplete="given-name" required>
+                <input type="text" id="fname" name="fname" title="First Name" autocomplete="given-name" required>
             </label>
             <label for="lname">
                 <span class="bold">Last Name</span>*
-                <input type="text" id="lname" name="lname" autocomplete="family-name" required>
+                <input type="text" id="lname" name="lname" title="Last Name" autocomplete="family-name" required>
             </label>
             <label for="o-title">
                 <span class="bold">Organizational Title</span>*
-                <input type="text" id="o-title" name="o-title" autocomplete="organization-title" pattern="[A-Za-z \-]{7,}" required>
+                <input type="text" id="o-title" title="Organizational Title"name="o-title" autocomplete="organization-title" pattern="[A-Za-z \-]{7,}" required>
             </label>
             <label for="email">
                 <span class="bold">Email Address</span>*
-                <input type="email" id="email" name="email" autocomplete="email" placeholder="example@gmail.com" required>
+                <input type="email" id="email" name="email" title="Email Address" autocomplete="email" placeholder="example@gmail.com" required>
             </label>
             <label for="phone">
                 <span class="bold">Phone Number</span>*
-                <input type="tel" id="phone" name="phone" autocomplete="tel" required>
+                <input type="tel" id="phone" name="phone" title="Phone Number" autocomplete="tel" required>
             </label>
             <label for="o-name">
                 <span class="bold">Organization/Business Name</span>*
-                <input type="text" id="o-name" name="o-name" autocomplete="organization" required>
+                <input type="text" id="o-name" name="o-name" title="Organization Name" autocomplete="organization" required>
             </label>
             <label><span class="bold">Membership Level</span>*
-            <select name="membership" id="membership" required>
+            <select name="membership" id="membership" title="Membership Level" required>
                 <option value="" disabled selected>Select a level...</option>
                 <option value="Non-Profit">Non-Profit</option>
                 <option value="Bronze">Bronze</option>
@@ -81,6 +81,10 @@
             </select>
             </label>
             <input type="hidden" id="timestamp" name="timestamp" value="">
+            <label for="description">
+                <span class="bold">Organization Description</span>
+                <textarea name="o-description" id="o-description" title="Organization Description" placeholder="Organization Description"></textarea>
+            </label>
             <input type="submit" value="Join the Chamber">
         </form>
         <div class="level-cards">
