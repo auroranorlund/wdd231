@@ -36,4 +36,27 @@
         grid-template-columns: 1fr 1fr;
         align-items: center;
     }
+    /* ------------------------ DISCOVER PAGE MEDIUM ------------------------*/
+    #areas section {
+        display: grid;
+        grid-template-areas: 
+        "name name"
+        "image description"
+        "image address"
+        "button button";
+    }
+    #areas h2 {
+        text-align: left;
+        margin: 0.5rem 0;
+        padding-left: 0.5rem;
+    }
+    #areas p {
+        text-align: left;
+    }
+    #areas address {
+        text-align: left;
+    }
+    #areas figure img:hover {
+        box-shadow: 0 0 10px #454f45b4;
+    }
 }
