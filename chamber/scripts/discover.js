@@ -1,20 +1,22 @@
-const url = 'https://byui-cse.github.io/cse-ww-program/data/latter-day-prophets.json';
+const url = 'https://auroranorlund.github.io/wdd231/chamber/data/discover.json';
 const cards = document.querySelector('#areas');
-async function getLocationData() {
+async function getLandmarkData() {
     const response = await fetch(url);
     const data = await response.json();
-    //console.table(data.prophets);
-    displayProphets(data.prophets)
+    console.table(data.landmarks);
+    //displayProphets(data.landmarks)
 };
-const displayProphets = (prophets) => {
-  prophets.forEach((prophet) => {
-    let card = document.createElement("section");
-    let fullName = document.createElement("h2");
-    let portrait = document.createElement("img");
-    let birthdate = document.createElement("p");
-    let birthplace = document.createElement("p");
 
-    fullName.innerHTML = `${prophet.name} ${prophet.lastname}`;
+const displayLandmarks = (landmarks) => {
+  landmarks.forEach((landmark) => {
+    let area = document.createElement("section");
+    let name = document.createElement("h2");
+    let photoFigure = document.createElement("figure")
+    let photo = document.createElement("img");
+    let address = document.createElement("address");
+    let description = document.createElement("p");
+
+    name.innerHTML = `${landmark.name}`;
     portrait.setAttribute("src", prophet.imageurl);
     portrait.setAttribute("alt", `Portrait of ${prophet.name} ${prophet.lastname}`);
     portrait.setAttribute("loading", "lazy");

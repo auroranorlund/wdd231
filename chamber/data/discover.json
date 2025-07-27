@@ -3,42 +3,50 @@
         {
             "name": "Amanda's Bakery",
             "address": "1450 W Broadway St., Smallville, Kansas, 66112",
-            "description": "Amanda's Bakery is the perfect local spot for freshly made bread, pastries, cakes, and more. Open from 6am to 2pm Monday-Saturday."
+            "description": "Amanda's Bakery is the perfect local spot for freshly made bread, pastries, cakes, and more. Open from 6am to 2pm Monday-Saturday.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/bakery.webp"
         },
         {
             "name": "Bug In a Rug Cafe",
             "address": "715 S Brown St., Smallville, Kansas, 66112",
-            "description": "Bug in a Rug Cafe is the coziest spot in town. With big, warm, indoor and outdoor fireplaces for the winter and a beautiful garden area for the summer, it's the perfect place to get together all year round. Open from 6am to 3pm Monday-Saturday."
+            "description": "Bug in a Rug Cafe is the coziest spot in town. With big, warm, indoor and outdoor fireplaces for the winter and a beautiful garden area for the summer, it's the perfect place to get together all year round. Open from 6am to 3pm Monday-Saturday.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/cafe.webp"
         },
         {
             "name": "Cool Cats Diner",
             "address": "325 N Sweetwater Dr., Smallville, Kansas, 66112",
-            "description": "Enjoy a blast from the past at the Cool Cats Diner. Opened in 1952, this diner has been kept in top condition with as much of its original furnishings as possible throughout the decades, making it a historical experience in addition to an incredible restaurant. Open from 12pm to 10pm Monday-Saturday."
+            "description": "Enjoy a blast from the past at the Cool Cats Diner. Opened in 1952, this diner has been kept in top condition with as much of its original furnishings as possible throughout the decades, making it a historical experience in addition to an incredible restaurant. Open from 12pm to 10pm Monday-Saturday.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/diner.webp"
         },
         {
             "name": "D. Prince Library",
             "address": "2385 E Hickory St., Smallville, Kansas, 66112",
-            "description": "The D. Prince Library has been a town staple for over 60 years, and continues to serve the community well. Featuring free wifi, great air conditioning, and frequent events. Open from 10am to 8pm Monday-Saturday."
+            "description": "The D. Prince Library has been a town staple for over 60 years, and continues to serve the community well. Featuring free wifi, great air conditioning, and frequent events. Open from 10am to 8pm Monday-Saturday.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/library.webp"
         },
         {
             "name": "Eden Park",
             "address": "2147 E Hickory St., Smallville, Kansas, 66112",
-            "description": "Eden Park is a central location in town, perfect for kids' parties, family picnics, romantic walks, and so much more. Several gazebos provide pleasant places to sit, and a large playground makes it perfect for families. Open from sunrise to sunset daily."
+            "description": "Eden Park is a central location in town, perfect for kids' parties, family picnics, romantic walks, and so much more. Several gazebos provide pleasant places to sit, and a large playground makes it perfect for families. Open from sunrise to sunset daily.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/park.webp"
         },
         {
             "name": "F.M.A. Post Office",
             "address": "712 S Brown St., Smallville, Kansas, 66112",
-            "description": "Named after one of the town's founders, the F.M.A. Post Office dutifully serves the town in providing mail and delivery services. Open from 9am to 5pm Monday-Friday and 10am to 2pm Saturday."
+            "description": "Named after one of the town's founders, the F.M.A. Post Office dutifully serves the town in providing mail and delivery services. Open from 9am to 5pm Monday-Friday and 10am to 2pm Saturday.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/post-office.webp"
         },
         {
             "name": "Gordon Theater",
             "address": "341 N Sweetwater Dr., Smallville, Kansas, 66112",
-            "description": "Looking for something fun to do? Check out the hottest movies at the Gordon Theater! Combining the beauty of its history with the comfort of modern innovation, you can enjoy a retro concession area and lobby and comfortable reclining seats all in the same spot. Open from 11am to 11pm Monday-Saturday."
+            "description": "Looking for something fun to do? Check out the hottest movies at the Gordon Theater! Combining the beauty of its history with the comfort of modern innovation, you can enjoy a retro concession area and lobby and comfortable reclining seats all in the same spot. Open from 11am to 11pm Monday-Saturday.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/theater.webp"
         },
         {
             "name": "H. Quinn Town Hall",
             "address": "1420 W Broadway St., Smallville, Kansas, 66112",
-            "description": "Another local spot named after one of the town's founders, the H. Quinn Town hall is the heart of the town. While important for business and administrative affairs, Town Hall also hosts many community events. Open from 9am to 5pm Monday-Friday unless otherwise listed."
+            "description": "Another local spot named after one of the town's founders, the H. Quinn Town hall is the heart of the town. While important for business and administrative affairs, Town Hall also hosts many community events. Open from 9am to 5pm Monday-Friday unless otherwise listed.",
+            "imageurl": "https://auroranorlund.github.io/wdd231/chamber/images/town-hall.webp"
         }
     ]
 }
