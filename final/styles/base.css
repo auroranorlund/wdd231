@@ -1,0 +1,15 @@
+/* ------------------------ ALL ------------------------*/
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+:root {
+    --background-color: #080a0e;
+    --text-color: #e9ecf2;
+    --primary-color: #a7b2ca;
+    --secondary-color: #643976;
+    --accent-color: #5872a7;
+    --header-font-family:  'Playfair', serif;
+    --body-font-family: 'Work Sans', sans-serif;
+}
