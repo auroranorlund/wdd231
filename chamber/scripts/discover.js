@@ -22,7 +22,6 @@ const displayLandmarks = (landmarks) => {
 
     photo.setAttribute("src", landmark.imageurl);
     photo.setAttribute("alt", `Picture of ${landmark.name}`);
-    photo.setAttribute("loading", "lazy");
     photo.setAttribute("width", "300");
     photo.setAttribute("height", "200");
     photoFigure.appendChild(photo);
