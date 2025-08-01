@@ -1,0 +1,19 @@
+@media (min-width: 55em) {
+#menu {
+    display: none;
+}
+.navigation {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navigation a {
+    display: block;
+}
+h1 {
+    font-size: 2.2rem;
+}
+.ft-main {
+    justify-content: space-evenly;
+}
+
+}

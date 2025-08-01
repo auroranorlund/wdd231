@@ -1,0 +1,51 @@
+.hero img {
+  width: 100%;
+  height: auto;
+}
+.caption {
+    font-size: .7rem;
+    font-style: italic;
+    text-align: center;
+}
+.welcome p, .details p {
+    padding: 5px;
+    text-indent: 1.5rem;
+}
+.details {
+    padding-top: 10px;
+}
+.details img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+/* ------------------------ LARGE ------------------------*/
+@media (min-width: 55em) {
+main {
+    max-width: none;
+    padding: 0.5rem;
+}
+.hero, .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem;
+}
+.hero-image, .welcome, .details-image, .details-p {
+    align-content: center;
+}
+h2 {
+    font-size: 2rem;
+}
+p {
+    margin-top: 0.5rem;
+    line-height: 1.4;
+}
+.welcome p {
+    margin-left: 0.5rem;
+}
+.details-p {
+    order: -1;
+    margin-right: 0.5rem;
+}
+}

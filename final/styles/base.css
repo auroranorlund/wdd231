@@ -13,3 +13,139 @@
     --header-font-family:  'Playfair', serif;
     --body-font-family: 'Work Sans', sans-serif;
 }
+body {
+    background-color: var(--background-color);
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+/* ------------------------ NAV ------------------------*/
+#menu {
+	font-size: 1.5rem;
+	border: 0;
+	background: none;
+	color: white;
+ 	position: absolute;
+	top: 0.25rem;
+	right: 1rem;
+}
+#menu::before {
+    content:"☰";
+}
+#menu.open::before {
+	content: "X";
+}
+nav {
+    margin:0 auto;
+    font-size: 1.15rem;
+}
+.navigation {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    background-color:var(--accent-color);
+    align-items: center;
+    padding: 5px;
+}
+.navigation li {
+    flex: 1 1 auto;
+    font-family: var(--body-font-family);
+}
+.navigation a {
+    display: none;
+    color: var(--text-color);
+    padding:0.75rem;
+    text-decoration: none;
+    text-align: center;
+}
+.navigation a:hover {
+    background-color: #405379
+}
+.open a {
+    display: block;
+}
+.current {
+    text-decoration: underline;
+    color: var(--text-color);
+}
+/* ------------------------ MAIN ------------------------*/
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+    color: var(--text-color);
+}
+h1 {
+    font-family: var(--header-font-family);
+    font-style: italic;
+    font-weight: 800;
+    font-size: 1.5rem;
+    color: var(--text-color);
+}
+main h2 {
+    font-family: var(--header-font-family);
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: var(--text-color);
+    padding: 5px;
+    text-align: center;
+    margin: 1rem;
+}
+main p {
+    font-family: var(--body-font-family);
+}
+/* ------------------------ FOOTER ------------------------*/
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+footer {
+    background-color: var(--accent-color);
+    color: var(--text-color);
+    line-height: 1.5;
+    font-family: var(--body-font-family);
+}
+footer a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+a:hover {
+    text-decoration: underline;
+}
+footer h4 {
+    color: var(--text-color);
+    font-family: var(--header-font-family);
+    font-size: 1.375rem;
+    padding-bottom: 0.4rem;
+}
+.container {
+    flex: 1;
+}
+.ft-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.ft-main-item {
+    max-width: 200px;
+    padding: 1rem;
+}
+.ft-social {
+    padding: 0 1.875rem 1.25rem;
+}
+.ft-social-list {
+    display: flex;
+    justify-content: center;
+    border-top: 1px rgba(255, 255, 255, 0.2) solid; 
+    padding-top: 1.25rem;
+}
+.ft-social-list li {
+    margin: 0.5rem;
+    font-size: 1.25rem;
+}
+.ft-copy {
+    padding: 0.9375rem 1.875rem;
+    background-color: #405379;
+    text-align: right;
+}

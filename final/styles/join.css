@@ -1,0 +1,72 @@
+h2, main p {
+    padding: 0.5rem;
+}
+form {
+    display: block;
+    background-color: #405379;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    appearance: none;
+    border-radius: 0.5rem;
+}
+label {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: var(--body-font-family);
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+textarea
+{
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 600px;
+    appearance: none;
+    margin-bottom: 5px;
+}
+form input[type="checkbox"]
+{
+    margin-right: 6px;
+}
+.bold {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-family: var(--body-font-family);
+}
+.optional {
+    font-weight: normal;
+    font-style: italic;
+    font-family: var(--body-font-family);
+}
+textarea {
+    resize: none;
+}
+form input[type="submit"] {
+    padding: 1rem;
+    width: 100%;
+    max-width: 600px;
+    background: none;
+    color: inherit;
+	border: none;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    font-family: var(--body-font-family);
+    background-color: rgba(0, 0, 0, 0.455);
+    border-radius: 0.25rem;
+}
+form input[type="submit"]:hover {
+    background-color: var(--primary-color);
+    color:black;
+}
+.thanks p {
+    text-align: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,111 @@
+img {
+    width: 100%;
+    height: auto;
+}
+h3 {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-align: center;
+    padding: 5px;
+}
+p {
+    padding: 10px;
+}
+.italics {
+    font-style: italic;
+}
+.notes {
+	margin: 1rem auto;
+	padding: 1rem;
+	background-color: #405379;
+	display: flex;
+	flex-direction: column;
+    border-radius: 0.25rem;
+}
+label {
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+input,
+button {
+	padding: 0.5rem;
+    background: none;
+    color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+textarea {
+    min-height: 100px;
+    resize: none;
+    font-family: var(--body-font-family);
+    padding: 5px;
+    border-radius: 0.25rem;
+}
+#submit-note {
+	margin: 0.5rem;
+    justify-content: center;
+    font-family: var(--body-font-family);
+    background-color: rgba(0, 0, 0, 0.455);
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}
+#submit-note:hover {
+    background-color: var(--primary-color);
+    color:black;
+}
+.delete {
+    font-size: 1.3rem;
+}
+.delete:hover {
+    color: red;
+}
+.input {
+	display: flex;
+	gap: 1rem;
+}
+#note-list {
+    padding: 0.5rem;
+    font-size: 1.125rem;
+}
+.list {
+	padding: 0.5rem;
+}
+.notes ul {
+	margin: 1rem;
+	list-style: none;
+    font-family: var(--body-font-family)
+}
+.notes li {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.455);
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+@media (min-width: 55em) {
+main {
+    max-width: none;
+    padding: 0.5rem;
+}
+.painting {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0.5rem;
+}
+.painting-image, .painting-p {
+    align-content: center;
+}
+.painting-p {
+    margin-left: 0.5rem;
+}
+.notes {
+    max-width: 900px;
+}
+}
