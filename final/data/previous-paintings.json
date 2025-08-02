@@ -116,6 +116,24 @@
             "year": "circa 1767",
             "description": "The Swing (French: L'Escarpolette), also known as The Happy Accidents of the Swing (French: Les Hasards heureux de l'escarpolette, the original title), is an 18th-century oil painting by Jean-Honoré Fragonard in the Wallace Collection in London. It is considered to be one of the masterpieces of the Rococo era, and is Fragonard's best-known work.",
             "url": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Fragonard%2C_The_Swing.jpg"
+        },
+        {
+            "month": "June",
+            "featureYear": "2024",
+            "name": "Dance at Bougival",
+            "artist": "Pierre-Auguste Renoir",
+            "year": "1883",
+            "description": "Dance at Bougival is an 1883 oil-on-canvas painting by the French artist Pierre-Auguste Renoir, currently in the collection of the Museum of Fine Arts in Boston, Massachusetts, United States. Described as 'one of the museum's most beloved works', it is one of three in a collection commissioned by Paul Durand-Ruel. It depicts a scene in the French village of Bougival, about 15 km from the center of Paris. The painting depicts two dancers surrounded by a lively scene of café goers. The painting's actual subjects are disputed, but it is well known for conveying the sense that they are in motion, making the viewer feel that they are actually there. Renoir used mostly pastel colors, but included a more vibrant hue in the hats of both the subjects. The larger group of paintings to which this one belongs is described as Renoir's last foray in Impressionism, and demonstrates the development of his artistic ability from his earlier works.",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Dance-At-Bougival.jpg"
+        },
+        {
+            "month": "May",
+            "featureYear": "2024",
+            "name": "The White Horse",
+            "artist": "John Constable",
+            "year": "1819",
+            "description": "The White Horse is an oil-on-canvas landscape painting by the English artist John Constable. It was completed in 1819 and is now in the Frick Collection in New York City. The painting marked a vital turning point in the artist's career. It was the first in a series of six so called 'Six-Footers', depicting scenes on the River Stour, which includes his celebrated work The Hay Wain. The subject of the painting is a tow-horse being ferried across the river in Flatford, just below the Lock, at a point where the towpath switches banks.",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/1/10/The_White_Horse_by_John_Constable_-_Google_Art_Project.jpg"
         }
     ]
 }
