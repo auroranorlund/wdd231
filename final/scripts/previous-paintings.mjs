@@ -24,10 +24,11 @@ export function displayPaintings(paintings) {
 
     caption.innerHTML = `
     <p>${painting.month} ${painting.featureYear}</p>
-    <p class="painting-title">${painting.name} by ${painting.artist},</p>
+    <p><span class="italics">${painting.name}</span> by ${painting.artist}, ${painting.year}</p>
     `;
     image.setAttribute("src", painting.url);
     image.setAttribute("alt", `${painting.name} by ${painting.artist}`);
+    image.setAttribute("loading", "lazy");
 
     image.addEventListener('click', () => showDetails(painting))
 
@@ -39,6 +40,14 @@ export function displayPaintings(paintings) {
 }
 
 export function showDetails(painting) {
+    const dialog = document.querySelector('#paintingDialog');
+    const dialogTitle = document.querySelector('#paintingDialog h3');
+    const dialogP = document.querySelector('#paintingDialog p');
+    const dialogImg = document.querySelector('#paintingDialog img');
+
     dialogTitle.innerHTML = `${painting.name}`;
+    dialogP.innerHTML = `${painting.description}`;
+    dialogImg.setAttribute("src", painting.url);
+
     dialog.showModal();
 }

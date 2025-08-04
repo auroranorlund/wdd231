@@ -1,10 +1,9 @@
 const url = "https://auroranorlund.github.io/wdd231/final/data/previous-paintings.json";
-const dialog = document.querySelector('#paintingDialog');
-const dialogTitle = document.querySelector('#paintingDialog h3');
-const dialogButton = document.querySelector('#paintingDialog button');
-const dialogP = document.querySelector('#paintingDialog p');
+const details = document.querySelector('#paintingDialog');
+details.close();
 
-dialogButton.addEventListener('click', () => dialog.close());
+const detailsButton = document.querySelector('#paintingDialog button');
+detailsButton.addEventListener('click', () => details.close());
 
 import { dataFetch, displayPaintings, showDetails } from "./previous-paintings.mjs";
 dataFetch(url);
