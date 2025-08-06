@@ -45,7 +45,7 @@ export function showDetails(painting) {
     const dialogP = document.querySelector('#paintingDialog p');
     const dialogImg = document.querySelector('#paintingDialog img');
 
-    dialogTitle.innerHTML = `${painting.name}`;
+    dialogTitle.innerHTML = `<span class="italics">${painting.name}</span> by ${painting.artist}, ${painting.year}`;
     dialogP.innerHTML = `${painting.description}`;
     dialogImg.setAttribute("src", painting.url);
 
