@@ -150,6 +150,6 @@ footer h4 {
     text-align: right;
 }
 
-fab, fa-facebook, fa-twitter, fa-instagram, fa-linkedin, fa-youtube {
+.fab, .fa-facebook, .fa-twitter, .fa-instagram, .fa-linkedin, .fa-youtube {
     width: auto;
 }
